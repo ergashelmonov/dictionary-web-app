@@ -354,6 +354,10 @@ main {
     .word-type {
       font-size: 18px;
       line-height: 133%;
+
+      &::after {
+        width: 200px;
+      }
     }
 
     .meaning {
